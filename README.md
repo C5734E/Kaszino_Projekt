@@ -1,153 +1,125 @@
+## Dokumentáció
+
+**Készítők:**
+
+- Hegedüs Milán
+- Joó Zoltán
+- Deák Bence
+
+**Intézmény:**
+
+Ganz Ábrahám Két Tanítási Nyelvű Technikum
+
+
 ---
-title: "**Kaszinó**"
+
+## Tartalomjegyzék
+
+- Specifikáció
+  - 1.1 Feladat leírása
+  - 1.2 Használati esetek
+  - 1.3 Követelmények
+- Tervezés
+  - 2.1 Alkalmazás
+    - 2.1.1 Alap információk
+    - 2.1.2 Telepített szolgáltatások és egyéb alkalmazások
+    - 2.1.3 A rendszer felhasználói fiókjai és csoportjai - Admin - játékos
+    - 2.1.4 Mentés és monitorozás
+  - 2.2 Operációs rendszer és fejlesztői környezet
+    - 2.2.1 Git konfiguráció
+    - 2.2.2 Repository klónozása és ágak létrehozása
+    - 2.2.3 Példaprogram készítése és push
+    - 2.2.4 Issue-k létrehozása
+
 ---
 
-Dokumentáció
+# Specifikáció
 
-[Készítők:]{.underline}
+## 1.1 Feladat leírása
 
-Hegedüs Milán
+kaszinó játékok
 
-Joó Zoltán
+## 1.2 Használati esetek
 
-Deák Bence
+- Fejlesztők: A kód fejlesztéséért felelősek
+- Tesztelő: kivizsgálja a lehetséges hibákat
+- Játékos: játszik
 
-Intézmény:
+## 1.3 Követelmények
 
-> Ganz Ábrahám Két Tanítási Nyelvű Technikum
+- 3 kaszinó játék pl.: póker, félkarú rabló, blackjack, roulette
+- bejelentkezés
+- pénz
+- beállítás
+- kilépés
 
-Tartalomjegyzék
+---
 
-1.  Specifikáció
+# Tervezés
 
-1.1 Feladat leírása
+## 2.1 Alkalmazás
 
-1.2. Használati esetek
+- Visual Studio 2022
 
-1.3. Követelmények
+## 2.2 Kód nyelv
 
-2.  Tervezés
+- C#
 
-2.1. Alkalmazás
+## 2.3 Terv
 
-2.1.1 Alap információk
+A fejlesztők GitHub-on keresztül fejlesztik a kódot.
 
-2.1.2 Telepített szolgáltatások és egyéb alkalmazások
+### 2.1.1 Alap információk
 
-2.1.3 A rendszer felhasználói fiókjai és csoportjai -Admin -játékos
+- GitHub
+- VS 2022
 
-2.1.4 Mentés és monitorozás
+### 2.1.2 Telepített szolgáltatások és egyéb alkalmazások
 
-2.2 Operációs rendszer és fejlesztői környezet
+- GitHub
+- VS 2022
 
-2.2.1 Git konfiguráció
+### 2.1.3 A rendszer felhasználói fiókjai és csoportjai
 
-2.2.2 Repository klónozása és ágak létrehozása
+- Admin
+- Játékos
 
-2.2.3 Példaprogram készítése és push
+### 2.1.4 Mentés és monitorozás
 
-2.2.4 Issue-k létrehozása
+- GitHubon keresztül és verbálisan
 
-***Specifikáció***
+## 2.5 Operációs rendszer és fejlesztői környezet
 
-1.1 Feladat leírása
+- Windows és kényelmes
 
--   kaszinó játékok
+### 2.5.2 Git konfiguráció
 
-1.2. Használati esetek
+- A felhasználók a Git klienst konfigurálták saját nevükkel és e-mail címükkel:
 
--   Fejlesztők: A kód fejlesztéséért felelősek
+### 2.5.3 Repository klónozása és ágak létrehozása
 
--   Tesztelő: kivizsgálja a lehetséges hibákat
+- fork és Github Desktop
 
--   Játékos: játszik
+### 2.5.4 Példaprogram készítése és push
 
--   
+- push push
 
-1.3. Követelmények
+#### 2.5.5 Issue-k létrehozása
 
--   3 kaszinó játék pld.: poker, félkarú rabló, blackjack, roulett
+- Frontend projekt (5 issue példa):
 
--   bejelentkezés
+- Főmenü UI létrehozása
 
--   pénz
+- vezérlés
 
--   beállítás
+- pénz kijelzés (HUD)
 
--   Kilépés
+- animációk
 
-***Tervezés***
+- Backend projekt (3 issue példa):
 
-2.1. Alkalmazás
+- Felhasználó hitelesítés megvalósítása
 
--   Visual Studio 2022
+- logika fejlesztése
 
-2.2. Kód nyelv
-
--   C#
-
-2.3 terv
-
--   A fejlesztők github-on keresztül fejlesztik a kódot.
-
-2.4.1 Alap információk
-
--   GitHub
-
--   VS 2022
-
-2.4.2 Telepített szolgáltatások és egyéb alkalmazások
-
--   GitHub
-
--   VS 2022
-
-2.4.3 A rendszer felhasználói fiókjai és csoportjai
-
--   Admin
-
--   Játékos
-
-2.4.7 Mentés és monitorozás
-
--   GitHubon keresztül és verbálisan
-
-2.5.1 Operációs rendszer és fejlesztői környezet -Windows és kényelmes
-2.5.2 Git konfiguráció
-
-A felhasználók a Git klienst konfigurálták saját nevükkel és e-mail
-címükkel:
-
--   git config \--global user.name \"Fejlesztő Neve\" •
-
--   git config \--global user.email \"<fejleszto@example.com>\"
-
-2.5.3 Repository klónozása és ágak létrehozása
-
-fork és Github desktop
-
-2.5.4 Példaprogram készítése és push
-
-push push
-
-2.5.5 Issue-k létrehozása
-
--   Frontend projekt (5 issue példa):
-
-    -   Főmenü UI létrehozása
-
-    -   vezérlés
-
-    -   pénz kijelzés (HUD)
-
-    -   animációk
-
--   Backend projekt (3 issue példa):
-
-    -   Felhasználó hitelesítés megvalósítása
-
-    -   logika fejlesztése
-
-    -   Játékmenet
-
-***Tesztelés***
+- Játékmenet
