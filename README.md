@@ -123,3 +123,5 @@ A fejlesztők GitHub-on keresztül fejlesztik a kódot.
 - logika fejlesztése
 
 - Játékmenet
+
+#Tesztelés
