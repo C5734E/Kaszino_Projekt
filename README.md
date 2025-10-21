@@ -30,6 +30,7 @@ Ganz Ábrahám Két Tanítási Nyelvű Technikum
     - 2.2.2 Repository klónozása és ágak létrehozása
     - 2.2.3 Példaprogram készítése és push
     - 2.2.4 Issue-k létrehozása
+    - 2.5.5 Issue-k létrehozása
 
 ---
 
