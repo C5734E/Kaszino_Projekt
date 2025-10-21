@@ -124,4 +124,4 @@ A fejlesztők GitHub-on keresztül fejlesztik a kódot.
 
 - Játékmenet
 
-#Tesztelés
+# Tesztelés
