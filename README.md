@@ -104,7 +104,7 @@ A fejlesztők GitHub-on keresztül fejlesztik a kódot.
 
 - push push
 
-#### 2.5.5 Issue-k létrehozása
+### 2.5.5 Issue-k létrehozása
 
 - Frontend projekt (5 issue példa):
 
